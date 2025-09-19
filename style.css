@@ -19,7 +19,7 @@ body {
 
 /* Header */
 .header {
-  background: #fff;
+  background: #cfe2eb;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   position: sticky;
   top: 0;
@@ -126,12 +126,12 @@ body {
 
 /* About Section */
 .about, .projects, .contact {
-  background: #ffffffcc; /* White with slight transparency */
-  border-radius: 12px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+   background: linear-gradient(145deg, #baacec, #aaeee9); /* Soft professional gradient */
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
   padding: 3rem 2rem;
   margin-bottom: 3rem;
-  transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .about:hover, .projects:hover, .contact:hover {
